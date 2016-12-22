@@ -1,0 +1,345 @@
+
+@font-face {font-family: 'WackyActionBTN';src: url('webfonts/2F3E37_0_0.eot');src: url('webfonts/2F3E37_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F3E37_0_0.woff2') format('woff2'),url('webfonts/2F3E37_0_0.woff') format('woff'),url('webfonts/2F3E37_0_0.ttf') format('truetype');}
+
+body, html{
+  height: 100%;
+
+  font-family: 'WackyActionBTN';
+	font-size: 18px;
+	text-transform: uppercase;
+
+}
+body{
+	/*background: url(../../images/bg.jpg) left top repeat;*/
+	padding-bottom: 30px;
+	padding-top: 30px;
+	
+}
+.noTitleStuff .ui-dialog-titlebar {display:none}
+
+
+.dialogText{
+	font-family: 'WackyActionBTN';
+	font-size: 22.5px;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.dialogTextOrange{
+	font-family: 'WackyActionBTN';
+	font-size: 22.5px;
+	text-transform: uppercase;
+	color: #e66829;
+}
+
+
+
+
+.theGame{
+	background-color: #fff;
+	min-height: 90%;
+	max-width: 976px;
+	padding-right:92px;
+	padding-left:92px;
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+.round {
+   border-radius: 25%/38% ; /* top left, top right, bottom right, bottom left */
+}
+
+/*les pouvelles*/
+.poubelles{
+	margin-top: 50px;
+}
+.textPoubelle{
+	color: white;
+	text-align: center;
+	font-size: 11.5px;
+	line-height: 25px;
+    font-weight: bold;
+}
+.firstTextPoubelle{
+	line-height: 15px;
+}
+.poubelleRecyclables{
+	background: url(../../images/imgss/Poubelle-1_sprite.png) left top no-repeat;
+	width: 184px;
+	height: 255px;
+	margin: 0 0 20px 0;
+	padding: 151px 10px 68px 13px;
+}
+
+.poubelleNormal{
+	background: url(../../images/imgss/Poubelle-2_sprite.png) left top  no-repeat;
+	width: 190px;
+	height: 232px;
+	margin: 0 0 20px 0;
+	    padding: 122px 29px 84px 26px;
+}
+.poubelleVerre{
+	background: url(../../images/imgss/Poubelle-3_sprite.png) left top  no-repeat;
+	width: 184px;
+	height: 216px;
+	margin: 0 0 15px 0;
+	padding: 87px 16px 103px 15px;
+}
+.poubelleRecyclables:hover{background: url(../../images/imgss/Poubelle-1_sprite.png) right top no-repeat;}
+.poubelleNormal:hover{background: url(../../images/imgss/Poubelle-2_sprite.png) right top  no-repeat;}
+.poubelleVerre:hover{background: url(../../images/imgss/Poubelle-3_sprite.png) right top  no-repeat;}
+
+/*les objects*/
+.objets{
+	margin-top: 36px;
+	margin-left: 90px;
+}
+.bouteille-vin{
+	background: url(../../images/imgss/bouteille-vin_sprite.png) left top no-repeat;
+	width: 105px;
+	height: 84px;
+}
+.peau-de-banane{
+	background: url(../../images/imgss/peau-de-banane_sprite.png) left top no-repeat;
+	width: 96px;
+	height: 72px;
+}
+.boite-de-conserve{
+	background: url(../../images/imgss/boite-de-conserve.png) center center no-repeat;
+	width: 95px;
+	height: 67px;
+}
+.bouteille-plastique{
+	background: url(../../images/imgss/bouteille-plastique.png) center center no-repeat;
+	width: 92px;
+	height: 89px;
+}
+.carton{
+	background: url(../../images/imgss/carton_sprite.png) left top no-repeat;
+	width: 113px;
+	height: 87px;
+}
+.cookies{
+	background: url(../../images/imgss/cookies_sprite.png) left top no-repeat;
+	width: 124px;
+	height: 78px;
+}
+.couche{
+	background: url(../../images/imgss/couche_sprite.png) left top no-repeat;
+	width: 79px;
+	height: 69px;
+}
+.journal{
+	background: url(../../images/imgss/journal_sprite.png) left top no-repeat;
+	width: 122px;
+	height: 78px;
+}
+.pot-de-confiture{
+	background: url(../../images/imgss/pot-de-confiture_sprite.png) left top no-repeat;
+	width: 56px;
+	height: 74px;
+}
+.Shampoing{
+	background: url(../../images/imgss/Shampoing_sprite.png) left top no-repeat;
+	width: 49px;
+	height: 103px;
+}
+.sirop{
+	background: url(../../images/imgss/sirop_sprite.png) left top no-repeat;
+	width: 58px;
+	height: 133px;
+
+}
+/*.obj{
+	background: url(../../images/bull-red.png) center center no-repeat;
+	width: 15px;
+	height: 50px;
+}
+.objpoubelle{
+	background: url(../../images/bull-green.png) center center no-repeat;
+	width: 15px;
+	height: 190px;
+}*/
+/*.objodd{
+	margin-bottom:20px;
+	margin-left: 30px;
+}
+.objeven{
+	margin-bottom:20px;
+	margin-left: 0px;
+}*/
+
+.hoverDropRecycle{
+	background: url(../../images/imgss/Poubelle-1_raviver.png) left top no-repeat;
+}
+.hoverDropNormal{
+	background: url(../../images/imgss/Poubelle-2_raviver.png) left top no-repeat;
+}
+.hoverDropVerre{
+	background: url(../../images/imgss/Poubelle-3_raviver.png) left top no-repeat;
+}
+
+.scaleUp{
+	animation-name: scalePoubelle;
+    animation-duration: 0.5s;
+}
+
+
+/* The animation code */
+@keyframes scalePoubelle {
+    0%   {
+    	-ms-transform: scale(1.1,1.1); /* IE 9 */
+	    -webkit-transform: scale(1.1,1.1); /* Safari */
+	    transform: scale(1.1,1.1); /* Standard syntax */
+    }
+    25%  {
+    	-ms-transform: scale(1,1); /* IE 9 */
+	    -webkit-transform: scale(1,1); /* Safari */
+	    transform: scale(1,1); /* Standard syntax */
+    }
+    50%  {-ms-transform: scale(1.1,1.1); /* IE 9 */
+	    -webkit-transform: scale(1.1,1.1); /* Safari */
+	    transform: scale(1.1,1.1); /* Standard syntax */
+	}
+    100% {-ms-transform: scale(1,1); /* IE 9 */
+	    -webkit-transform: scale(1,1); /* Safari */
+	    transform: scale(1,1); /* Standard syntax */
+	}
+}
+
+
+/*
+*hover classes
+*/
+.bouteille-vin:hover{
+	background: url(../../images/imgss/bouteille-vin_sprite.png) right top no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.peau-de-banane:hover{
+	background: url(../../images/imgss/peau-de-banane_sprite.png) right top no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.boite-de-conserve:hover{
+	background: url(../../images/imgss/boite-de-conserve_raviver.png) center center no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.bouteille-plastique:hover{
+	background: url(../../images/imgss/bouteille-plastique_raviver.png) center center no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.carton:hover{
+	background: url(../../images/imgss/carton_sprite.png) right top no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.cookies:hover{
+	background: url(../../images/imgss/cookies_sprite.png) right top no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.couche:hover{
+	background: url(../../images/imgss/couche_sprite.png) right top no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.journal:hover{
+	background: url(../../images/imgss/journal_sprite.png) right top no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.pot-de-confiture:hover{
+	background: url(../../images/imgss/pot-de-confiture_sprite.png) right top no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.Shampoing:hover{
+	background: url(../../images/imgss/Shampoing_sprite.png) right top no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.sirop:hover{
+	background: url(../../images/imgss/sirop_sprite.png) right top no-repeat;
+	cursor:move;
+	-webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+}
+.the-pot-de-peinture{
+	left: 160px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .container {
+	    padding-right: 1px;
+	    padding-left: 1px;
+	    margin-right: 0px;
+	    margin-left: 0px;
+	}
+	.row {
+	    margin-right:0px;
+	    margin-left:0px;
+	}
+	.objets {
+	    margin-top: 0px;
+	    margin-left: 0px;
+	}
+	.col-xs-4,.col-xs-3{
+		padding-right: 0px;
+    	padding-left: 0px;
+    	
+	}
+	.ui-draggable{
+		float: right;
+	}
+	.Shampoing{
+		left: -30px;
+    	position: relative;
+	}
+	.poubelles {
+	    margin-top: 0px;
+	}
+	.poubelleRecyclables {
+	    left: -20px;
+	    position: relative;
+	}
+	.poubelleVerre {
+	    right: 0px;
+	    position: relative;
+	}
+	.the-pot-de-peinture{
+		left: 0px;
+	}
+
+
+	
+
+}
+
+
+
+
+
